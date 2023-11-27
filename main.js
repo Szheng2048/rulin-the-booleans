@@ -1,8 +1,37 @@
 /********************
  * YOUR CODE BELOW! *
  ********************/
+function moreThan5(num){
+  return num > 5
+}
 
+function isNewTopScore(score,topScore){
+  return score > topScore
+}
 
+function isInDanger(grade){
+  return grade >= 60 && grade <= 71
+}
+
+function isCoasting(grade){
+  return grade >= 72 && grade <= 83
+}
+
+function isSucceeding(grade){
+  return grade >= 84 && grade <= 92
+}
+
+function isFailing(grade){
+  return grade < 60
+}
+
+functioln isAcing(grade){
+  return grade > 92
+}
+
+isStudent isStudent(string){
+  return string = "student"
+}
 
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
